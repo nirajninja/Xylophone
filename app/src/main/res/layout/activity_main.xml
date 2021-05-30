@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:backgroundTint="#000000"
+    android:background="#41504E"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/c_key"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="#5E35B1"
+        android:onClick="c" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/d_key"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#1E88E5"
+        android:onClick="d" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/e_key"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#00ACC1"
+        android:onClick="e" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/f_key"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#689F38"
+        android:onClick="f" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/g_key"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#AFB42B"
+        android:onClick="g" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/a_key"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#F57C00"
+        android:onClick="a" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/b_key"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#E33F0B"
+        android:onClick="b" />
+
+</LinearLayout>
